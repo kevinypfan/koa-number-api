@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const Koa = require("koa");
 const Router = require("@koa/router");
+const cors = require("@koa/cors");
 const MongoClient = require("mongodb").MongoClient;
 
 const app = new Koa();
