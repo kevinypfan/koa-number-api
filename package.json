@@ -1,0 +1,17 @@
+{
+  "name": "koa-number-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "mongodb": "^3.6.3",
+    "nodemon": "^2.0.6"
+  }
+}
