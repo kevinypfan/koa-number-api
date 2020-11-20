@@ -30,6 +30,7 @@ router.get("/recent-numbers", async (ctx, next) => {
 });
 
 // add the router to our app
+app.use(cors());
 app.use(router.routes());
 app.use(router.allowedMethods());
 
